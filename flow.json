@@ -1,1 +1,75 @@
-[]
+[
+    {
+        "id": "e443b166.8b0068",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "75aba95e.b236d",
+        "type": "exec",
+        "z": "e443b166.8b0068",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 470,
+        "y": 320,
+        "wires": [
+            [
+                "d4b10e03.a14408"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f96f53f8.57cf5",
+        "type": "inject",
+        "z": "e443b166.8b0068",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 320,
+        "wires": [
+            [
+                "75aba95e.b236d"
+            ]
+        ]
+    },
+    {
+        "id": "d4b10e03.a14408",
+        "type": "debug",
+        "z": "e443b166.8b0068",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 320,
+        "wires": []
+    }
+]
