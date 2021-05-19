@@ -10,14 +10,14 @@
         "id": "75aba95e.b236d",
         "type": "exec",
         "z": "e443b166.8b0068",
-        "command": "",
-        "addpay": true,
+        "command": "git pull origin master",
+        "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
         "oldrc": false,
         "name": "",
-        "x": 470,
+        "x": 480,
         "y": 320,
         "wires": [
             [
