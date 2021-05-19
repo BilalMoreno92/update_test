@@ -1,0 +1,12 @@
+{
+    "name": "update_test",
+    "description": "Prueba de concepto para auto actualización de un proyecto de Node-RED usando git.",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
